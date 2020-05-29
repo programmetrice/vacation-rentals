@@ -81,3 +81,24 @@ p {
     overflow: auto;
     padding: 0 20px;
 }
+
+/* Showcase*/
+
+#showcase {
+
+    background: url('../images/apartment.jpg') no-repeat center center/cover;
+    height: 600px;
+}
+
+#showcase .showcase-content {
+    color: white;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    padding-top: 160px;
+}
+
+#showcase .showcase-content h1 {
+    font-size:60px;
+    line-height: 1.2em;
+
+}
