@@ -1,3 +1,12 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
 html, body {
 
     font-family: Tahoma, Geneva, Verdana;
@@ -59,8 +68,16 @@ p {
     text-align: center;
 }
 
-#navbar ul li a:hover{
+#navbar ul li a:hover, 
+#navbar ul li a.present {
 
     background: #CD853F;
     color: black;
+}
+
+.container {
+
+    margin: auto;
+    overflow: auto;
+    padding: 0 20px;
 }
