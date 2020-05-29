@@ -1,0 +1,66 @@
+html, body {
+
+    font-family: Tahoma, Geneva, Verdana;
+    line-height: 1.7em;
+}
+
+a {
+    color: #A52A2A;
+    text-decoration: none;
+
+
+}
+
+h1,h2,h3 {
+
+    padding-bottom: 20px;
+}
+
+p {
+
+    margin: 10px 0;
+}
+
+/* Navbar*/
+
+#navbar {
+
+    background:#B0B0B0;
+    color: #A52A2A;
+    overflow: auto;
+}
+
+#navbar a {
+    color: #A52A2A;
+}
+
+#navbar h1 {
+
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul {
+
+    list-style-type: none;
+    float: right;
+}
+
+#navbar ul li {
+
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+
+    padding: 20px;
+
+    text-align: center;
+}
+
+#navbar ul li a:hover{
+
+    background: #CD853F;
+    color: black;
+}
