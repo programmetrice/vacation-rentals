@@ -81,6 +81,22 @@ p {
     overflow: auto;
     padding: 0 20px;
 }
+.btn {
+
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    background: #A0A0A0;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+
+    background: #A52A2A;
+}
 
 /* Showcase*/
 
@@ -101,4 +117,9 @@ p {
     font-size:60px;
     line-height: 1.2em;
 
+}
+
+#showcase .showcase-content p {
+    padding-bottom: 20px;
+    line-height: 1.6em;
 }
